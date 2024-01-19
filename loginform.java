@@ -56,13 +56,14 @@ class login extends JFrame implements ActionListener
             {
                 c.setBackground(Color.BLUE); 
                 c.add(msg);
-                msg.setText("Login Successfully");   
+                JOptionPane.showMessageDialog(c, "Login Successful !!!");  
             }
             else
             {
                 c.setBackground(Color.RED);
                 c.add(msg);
-                msg.setText("Incorrect...try again");
+                JOptionPane.showMessageDialog(c, "Incorrect Please Try Again !!!");  
+
             }
         }
     }
